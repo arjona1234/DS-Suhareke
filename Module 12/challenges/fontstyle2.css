@@ -22,3 +22,8 @@
         font-size: 55px;
         font-weight: 300;
     }
+    a{color:burlywood}
+    a:link{color:antiquewhite}
+    a:visited{color: aqua;}
+    a:hover{color:aquamarine}
+    a:active{color:azure}
