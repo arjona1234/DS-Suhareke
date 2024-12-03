@@ -10,11 +10,12 @@
 @font-face {
     font-family: arjonasfont;
     src:url(./fonts/Parkinsans-Regular.ttf)}
+
     .arjona{
         font-family: arjonasfont;
         color:blueviolet;
         font-size: 16px;
-        font-weight: 300
+        font-weight: 300;
     }
 
     .body-text{
@@ -22,8 +23,40 @@
         font-size: 55px;
         font-weight: 300;
     }
-    a{color:burlywood}
-    a:link{color:antiquewhite}
+
+    a{color:burlywood;}
+    a:link{color:antiquewhite;}
     a:visited{color: aqua;}
-    a:hover{color:aquamarine}
-    a:active{color:azure}
+    a:hover{color:aquamarine;}
+    a:active{color:azure;}
+
+    h1{
+         color:red;
+        text-align: center;
+        font-size: 25px; 
+        margin-top: 20px;
+      }
+
+      h2{
+        color:hotpink;
+        font-size: 10px;
+        text-align: center;
+      }
+
+      p {
+        font-size: 10px;
+        margin: 15px ;
+        text-align: justify; 
+      }
+
+      a.link{
+        color: orangered;
+        text-decoration: none;
+        font-weight: bold;
+        transition: color 0.3s ease;
+    }
+
+    a.link:hover {
+        color: #07f43e; 
+        text-decoration: underline;
+    }
