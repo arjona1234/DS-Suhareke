@@ -1,3 +1,5 @@
+*{box-sizing:border-box;}
+
 nav {
     background-color:hotpink; 
     padding: 10px;
@@ -5,7 +7,7 @@ nav {
 
 
 nav ul li {
-    color: rgb(232, 121, 197); 
+    color: rgb(237, 12, 166); 
     padding: 10px; 
     list-style: none; 
 }
