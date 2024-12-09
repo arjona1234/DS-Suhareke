@@ -1,0 +1,35 @@
+.ststatic{
+    border: 1px;
+    width: 360px;
+    height: 300px;
+    position: static;
+    padding: 10px;
+}
+.relative{
+    border: 1px;
+    width: 360px;
+    height: 300px;
+    position: static;
+    padding: 10px;
+}
+.absolute{
+    border: 1px;
+    width: 360px;
+    height: 300px;
+    position: static;
+    padding: 10px;
+}
+.sticky{
+    border: 1px;
+    width: 360px;
+    height: 300px;
+    position: static;
+    padding: 10px;
+}
+.fixed{
+    border: 1px;
+    width: 360px;
+    height: 300px;
+    position: static;
+    padding: 10px;
+}
