@@ -1,0 +1,10 @@
+input:focus{
+    border:2px;
+    border-color: pink;
+    background-color:red;
+}
+input:hover{
+    border:2px;
+    border-color: coral;
+    background-color: darkkhaki;
+}
