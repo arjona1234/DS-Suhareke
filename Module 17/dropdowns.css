@@ -17,3 +17,37 @@ box-shadow: inset -18px -15px 65px -10px rgba(242,36,242,0.8);
 .dropdown a:hover + .dropdowns-content{
     display: inline-block;
 }
+body{
+    counter-reset: number;
+}
+h2::before{
+    counter-increment: number;
+content:counter(number);
+background-color: aquamarine;
+color: green;
+padding: 18px 17px;
+border-radius: 50%;
+margin-right: 10px;
+
+
+}
+.a12{
+    margin: 15px;
+    width: 50px;
+    height: 50px;
+    border: 30px;
+    background-color: chartreuse;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.border-solid{
+margin: 15px;
+width: 50px;
+height: 50px;
+background-color: darkgreen;
+padding: 40px;
+height: auto;
+margin-right: 10px;
+}
+
+    
