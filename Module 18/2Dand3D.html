@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="sq">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2D dhe 3D</title>
+    <style>
+        #transform {
+            width: 500px;
+            height: auto;
+            border-radius: 5px;
+            transform: rotate(170deg);
+            transition: transform 2s ease-in-out;
+        }
+
+        .translate {
+            width: 300px;
+            height: auto;
+            border: 1px solid black;
+            transition: all 2s ease-in-out;
+        }
+
+        .translate:hover {
+            width: 500px;
+            background-color: hotpink;
+            transform: rotateY(270deg);
+        }
+    </style>
+</head>
+<body>
+    <div id="transform">
+        
+        <img src="images/arjona.jpg" alt="Ricardo Arjona">
+        <div class="translate">
+           
+            <img src="images/arjona.jpg" alt="Ricardo Arjona">
+        </div>
+    </div>
+</body>
+</html>
