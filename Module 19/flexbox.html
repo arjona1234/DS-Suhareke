@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .flex-container {
+            display: flex;
+            background-color: violet;
+            padding: 20px;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            height: 300px;
+        }
+        .flex-container > div {
+            padding: 20px;
+            margin: 15px;
+            color: white;
+            border: 1px solid black;
+        }
+        .flex-container > div:nth-child(1) {
+            background-color: pink;
+            flex-grow: 1;
+        }
+        .flex-container > div:nth-child(2) {
+            background-color: lightpink;
+            flex-grow: 2;
+        }
+        .flex-container > div:nth-child(3) {
+            background-color: mediumvioletred;
+            flex-grow: 3;
+        }
+        .flex-container > div:nth-child(4) {
+            background-color: hotpink;
+            flex-grow: 4;
+            width: 95%;
+        }
+    </style>
+</head>
+<body>
+    <div class="flex-container">
+        <div>Content 1</div>
+        <div>Content 2</div>
+        <div>Content 3</div>
+        <div>Content 4</div>
+    </div>
+</body>
+</html>
