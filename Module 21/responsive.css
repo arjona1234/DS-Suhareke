@@ -1,0 +1,12 @@
+@media(max-width:600px){
+.p1{
+background-color: hotpink;
+color: aqua;
+}
+}
+@media(min-width:1000px){
+.p1{
+background-color: blueviolet;
+color:green ;
+}
+}
