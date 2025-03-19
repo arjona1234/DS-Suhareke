@@ -1,13 +1,13 @@
 const person = {
-    firstName: "John",
-    lastName: "Doe",
-    age: 30,
+    firstName: "Alice",
+    lastName: "Smith",
+    age: 25,
     
     getFullName: function() {
-      return this.firstName + " " + this.lastName;
+      return `${this.firstName} ${this.lastName}`;
     }
   };
   
-
+ 
   console.log(person.getFullName()); 
   
