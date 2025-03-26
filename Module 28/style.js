@@ -1,4 +1,4 @@
-btn1.onclick=function()
+btn1.onclick= function()
 {
 txt1.style.color="pink";
 txt1.style.backgroundColor="lightgrey";
