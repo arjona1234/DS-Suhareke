@@ -1,21 +1,21 @@
 //do while loop
 
 var i=0;
-do{ 
+do{
     i = i+1;
     console.log(i);
-
 }while(i<5);
 
-console.log("-------------------------------------");
+console.log("-------------------------------");
 //while loop
 
-var i=0;
+var j=0;
 while(j<5){
     j=j+1;
     console.log(j);
+
 }
-console.log("----------------------------");
+console.log("--------------------------------");
 
 let n=0;
 let x=0;
@@ -25,13 +25,36 @@ while(n<3){
     x+=n;
     console.log(n);
     console.log(x);
-
 }
-console.log("------------------------------");
+
+console.log("--------------------");
 
 //for loop
 
-for(var i=0; i<5; i++){
-    console.log("Vaule of i is: "+i);
+for(var i=0;i<5;i++){
+    console.log("value of i is:"+i);
 }
 console.log("---------------");
+
+//for /in 
+var person={firstname:"John", lastName:"Doe", age:"25"};
+var text='';
+var z;
+for(z in person){
+    text +=person[z];
+}
+console.log(text);
+console.log("--------------------");
+
+//for /of
+var names =['Steve', 'Mia', 'Mark'];
+var y;
+for(y of names){
+    console.log(y);
+}
+console.log("--------------------");
+var txt="JavaScript";
+var l;
+for(l of txt){
+    console.log(l);
+}
