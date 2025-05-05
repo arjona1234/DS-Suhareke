@@ -71,6 +71,8 @@ document.getElementById("result15").innerHTML=text.match(regex);*/
 var regex=/end$/g;
 document.getElementById("result16").innerHTML=text.match(regex);*/
 
-var text="cat, catalog, category";
+/*var text="cat, catalog, category";
 var regex=/^cat/g;
-document.getElementById("result17").innerHTML=text.match(regex);
+document.getElementById("result17").innerHTML=text.match(regex);*/
+
+
