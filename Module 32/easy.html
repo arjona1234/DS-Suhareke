@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .error{
+            color: red;
+            font-size: 12px;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <form id="nameForm">
+
+        <label for="name">Shkruani emrin:</label>
+        <input type="text" id="name" name="name" required>
+        <span id="error" class="error">Lejohen vetem shkronja</span> 
+        <button type="submit">Dergo</button>
+
+    </form>
+    <script>
+        var nameInput=document.getElementById('name');
+        var errrorMessage=document.getElementById('error');
+        var form=document.getElementById('nameForm');
+        form.addEventListener('submit',function(event){
+            event.preventDefault();
+            var nameValue=nameInput.value;
+            if(/[^a-zA-Z]/.test(nameValue)){
+                errrorMessage.style.display='inline';
+
+            }
+            else{
+                errrorMessage.style.display='none';
+                alert('forma u dergua me sukses');
+            }
+        });
+    </script>
+</body>
+</html>
