@@ -1,45 +1,16 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        #name_error{
-    visibility: hidden;
-    color:red;
-}
-    </style>
-
-</head>
-<body>
-<form id="nameForm">
-    <label for="username">Name:</label>
-    <input type="text" id="username" name="username"/>
-    <span id="errorMsg" class="error"></span>
-    <br><br>
-    <button typr="submit">Submit</button>
-
-</form>
-<script>
-    const form=document.getElementById('nameForm');
-    const usernameInput=document.getElementById('username');
-    const errorMsg=document.getElementById('errorMsg');
-    form.addEventListener('submit',function(event){
-    event.preventDefault();//parandalon sumbit te formularit
-    const name=usernameInput.value;
-    const onlyLetters=/^[A-Za-z]+$/;
-
-    if(!onlyLetters.test(name)){
-        errorMsg.textContent="please use letters only";
-
-    }else{
-        errorMsg.textContent="";
-        //shto kodin
-        alert("form submitter successfully!");
-    }
-});
-</script>
-
-</body>
-</html>
+oft-Windows-Client-Features-Package.ESD" PayloadType="Canonical" />
+      </Payload>
+    </Package>
+    <Package ID="amd64_Microsoft-Windows-Client-Features-WOW64-Package" Version="10.0.19041.1">
+      <Payload>
+        <PayloadItem PayloadHash="mW9neyM6n8dB/WfY0JQ0D9tLrEcAfueBm3zPgrqxxms=" PayloadSize="83624122" Path="UUP\Desktop\editionPackages\neutral\Microsoft-Windows-Client-Features-WOW64-Package.ESD" PayloadType="Canonical" />
+      </Payload>
+    </Package>
+    <Package ID="amd64_Microsoft-Windows-EditionPack-PPIPro-WOW64-Package" Version="10.0.19041.1">
+      <Payload>
+        <PayloadItem PayloadHash="dnHNDjW6x1Vd9QbvCHnB0Qvv2OHQj9aGbS7KqAZ4wDo=" PayloadSize="16482090" Path="UUP\Desktop\editionPackages\neutral\Microsoft-Windows-EditionPack-PPIPro-WOW64-Package.ESD" PayloadType="Canonical" />
+      </Payload>
+    </Package>
+    <Package ID="amd64_Microsoft-Windows-RegulatedPackages-Package" Version="10.0.19041.1">
+      <Payload>
+        <PayloadItem PayloadHash="EweDcvvcVdQ9JdngPXiqNTygiP3uHr0iC6ZK6VY+xs0=" PayloadSize="38436580" Path="UUP\Desktop\editionPackages\neutral\Microsoft-Windows-RegulatedPackage
